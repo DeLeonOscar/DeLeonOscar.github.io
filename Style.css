@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 1px;
+        }
+
+            nav ul li a {
+                display: block;
+                padding: 8px 16px;
+                text-decoration: none;
+                color: black;
+                border-right: 1px solid #bbb;
+            }
+
+            nav ul li:last-child a {
+                border-right: none;
+            }
+
+            nav ul li a:hover {
+                background-color: #ddd;
+            }
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.image-container {
+    width: 40%;
+}
+
+    .image-container img {
+        width: 100%;
+        display: block;
+    }
+
+.description-container {
+    width: 50%;
+    background-color: #eee;
+    padding: 2rem;
+}
+
+    .description-container h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .description-container p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+.experience ul li h3 {
+    display: inline;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.experience-container {
+    background-color: #eee;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+    .experience-container p {
+        padding-bottom: 5px;
+    }
+
+    .experience-container li {
+        margin-bottom: 10px;
+    }
+
+.project-container {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 50px;
+}
+
+    .project-container h2 {
+        font-size: 2.5rem;
+    }
+
+    .project-container p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.contact-box {
+    width: 200px;
+    height: 100px;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .contact-box a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #333;
+    }
